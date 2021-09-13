@@ -24,9 +24,14 @@ body {
   border: 0;
   padding: 0;
 }
+.main-head{
+  background-color: #031f51;
+  color: white;
+  padding: 20px;
+}
 
 .header{
-  background: #b0997f;
+  background: lightslategray;
   height: 200px;
   padding: 20px;
 }
@@ -97,7 +102,7 @@ h1 {
   main body bg-color  
 ---------------------- */
 .main{
-  background-color: lightcyan;
+  background-color: lightgrey;
 }
 
 /* ---------------------- 
@@ -117,8 +122,8 @@ h1 {
   padding: 10px;
   margin: 20px 10px;
   transition: 0.6s;
-  height: 600px;
-  background-color: aquamarine;
+  height: 500px;
+  background-color: ghostwhite;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
@@ -197,5 +202,3 @@ h1 {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
-
