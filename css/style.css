@@ -1,4 +1,6 @@
-/* start Search Box  */
+/* ---------------------- 
+  start Search Box
+---------------------- */
 @import "compass/css3";
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:700);
@@ -86,54 +88,21 @@ h1 {
 .ico {
   position: absolute;
   right:135px;
-  top: 13px;
+  top: 3px;
   font-size:35px;
   color:#7f8c8d;
 }
 
-.contact {
-  border-bottom:2px solid rgb(200,200,200);
-  border-bottom-style:dashed;
-  padding: 15px;
-  height: 180px;
-  
+/* ---------------------- 
+  main body bg-color  
+---------------------- */
+.main{
+  background-color: lightcyan;
 }
 
-.wrapr {
-  width: 600px;
-  margin: 0 auto;
-}
-
-.imgWrpr {
-  float:left;
-  height: 150px;
-  width: 150px;
-  border-radius:80px;
-  overflow:hidden;
-  border:10px solid #eee;
-}
-
-.contact img {
-  height: 150px;
-  width: auto;
-}
-
-.contactInfo {
-  display:inline-block;
-  /* float:left; */
-  padding: 30px;
-  font-size:25px;
-  color:rgb(80,80,80);
-  font-family: 'Voces', cursive;
-  
-}
-
-.name {
-  font-size:1435px;
-}
-/* End Search Box  */
-
-
+/* ---------------------- 
+  Products field style  
+---------------------- */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -148,13 +117,13 @@ h1 {
   padding: 10px;
   margin: 20px 10px;
   transition: 0.6s;
-  height: 500px;
+  height: 600px;
   background-color: aquamarine;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 5px solid #b0997f;
   /* background-color: antiquewhite; */
   background-color: #031F51;
   color: antiquewhite;
@@ -178,7 +147,9 @@ h1 {
   padding-right: 30px;
 }
 
-/* Button Style  */
+/* ---------------------- 
+  Button Style
+---------------------- */
 
 .add-btn {
   font-size: 18px;
@@ -198,7 +169,10 @@ h1 {
   border-color: #b0997f;
 }
 
-/* Media Screen | Mobile responsive */
+
+/* ---------------------- 
+  Media Screen | Mobile responsive
+---------------------- */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
@@ -223,3 +197,5 @@ h1 {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+
